@@ -17,7 +17,10 @@
       loadSidebar: false,
       maxLevel: 4,
       subMaxLevel: 2,
-      homepage: 'index.md'
+      homepage: 'index.md',
+      // 加入以下設定確保中文檔名與 Vercel 路由相容
+      relativePath: true,
+      relativePath: true
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
